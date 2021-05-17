@@ -13,7 +13,7 @@ app.post("/",function(req,res){
   var n3 = n1/(n1*n2);
   res.send("The answer is : " + n3);
   console.log(req.body);
-  console.log(req.var.n3);
+ 
 });
 
 app.listen(3000,function(){
